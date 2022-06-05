@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import java.math.RoundingMode
 
 class CalcActivity : AppCompatActivity() {
@@ -39,8 +40,8 @@ class CalcActivity : AppCompatActivity() {
             calculate(fieldA, fieldB, 2)
         }
         btnDivide.setOnClickListener {
-
-            calculate(fieldA, fieldB, 3)
+            if(fieldB.text.toString() == "0") Toast.makeText(this, "Не делите на ноль!", Toast.LENGTH_SHORT).show()
+            else calculate(fieldA, fieldB, 3)
         }
     }
 

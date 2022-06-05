@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TestJob</string>
+    <string name="welcome">Welcome back, commander!</string>
+    <string name="welcome_login">Пожалуйста, авторизуйтесь:</string>
+    <string name="loginbtn">Вход</string>
+    <string name="registerbtn">Регистрация</string>
+    <string name="logintext">Логин</string>
+    <string name="passwordtext">Пароль</string>
+    <string name="calculator">Примитивный калькулятор</string>
+    <string name="result"></string>
+    <string name="emptyfieldserror">Введите логин и пароль!</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="loginhint">Введите логин любой длины, все символы допустимы</string>
+    <string name="passwordhint">Введите пароль любой длины, все символы допустимы</string>
+    <string name="a">Первое число</string>
+    <string name="b">Второе число</string>
+    <string name="ahint">Введите любое число</string>
+</resources>

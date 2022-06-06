@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -73,6 +72,7 @@ class MainActivity : AppCompatActivity() {
         val login = loginfield.text.toString()
         val password = passwordfield.text.toString()
         if(inputCheck(login, password)) {
+
 
             userViewModel.findUser(login, password)
             userViewModel.readAllData.observe(this, Observer1 {
